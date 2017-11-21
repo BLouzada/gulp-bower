@@ -1,0 +1,24 @@
+{
+  "name": "triangular-seed",
+  "version": "0.0.0",
+  "authors": [
+    "John Langan <john.langan@oxygenna.com>"
+  ],
+  "description": "",
+  "moduleType": [],
+  "license": "Themeforest",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "triangular": "git@bitbucket.org:facebot/triangular-bower.git"
+  } ,
+  "overrides": {
+    "triangular": {
+      "main": [
+        "triangular.js",
+        
+        "triangular.scss"
+      ]
+    }
+  }
+}
